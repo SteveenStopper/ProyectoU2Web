@@ -1,0 +1,98 @@
+#names {
+    padding: 5px;
+    color: White;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    position: relative;
+}
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+#Fondo {
+    background-image: url('https://img.freepik.com/vector-gratis/monstruo-fantasia-pantano-bosque-magico_107791-11503.jpg?w=996&t=st=1658873058~exp=1658873658~hmac=f9e64c36b437430d0c9d20e843893a9d60c0d59d165c0e58393234f39a5f094c');
+}
+
+#alumno1 {
+    background: url('/static/img/Niños/niño1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 15px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+
+#alumno2 {
+    background: url('/static/img/Niños/niño2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 15px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+
+#alumno3 {
+    background: url('/static/img/Niños/niña5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 15px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+
+#alumno4 {
+    background: url('/static/img/Niños/niño3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 15px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+
+#alumno5 {
+    background: url('/static/img/Niños/niña2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 15px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+
+#alumno6 {
+    background: url('/static/img/Niños/niño5.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 15px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+
+#alumno7 {
+    background: url('/static/img/Niños/niña4.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 15px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+
+#alumno8 {
+    background: url('/static/img/Niños/niño6.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 15px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+}

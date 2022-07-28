@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego de Pares</title>
+  <!--Llamado a Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!--LLamado al archivo css de manera estatica-->
+  <link href="/static/css/game.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark"
+    style="background: linear-gradient(30deg, royalblue, indianred, purple);">
+    <div class="container-md">
+      <!--Etiqueta de titulo-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <h2 class="navbar-nav me-auto mb-2 mb-lg-0" style="color: white;">Unidad Educativa San Feliz</h2>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <a class="btn btn-outline-danger" href="/" role="button">Salir</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <br>
+
+  <div class="container">
+    <h2 style="color: white;">{{nombre}}</h2>
+  </div>
+
+  <!--Juego-->
+  <div class="encabezado">
+    <div>
+      <span style="font-family: 'Times New Roman', Times, serif;">
+        Juego de Memoria
+      </span>
+    </div>
+    <div>
+      <span style="font-family: 'Times New Roman', Times, serif;">Tiempo restante: <span id="tiempo"></span></span>
+    </div>
+    <div>
+      <button id="iniciar" class="btn-juego" style="font-family: 'Times New Roman', Times, serif;">Iniciar</button>
+      <button id="detener" disabled class="btn-juego detener"
+        style="font-family: 'Times New Roman', Times, serif;">detener</button>
+      <button id="reiniciar" disabled class="btn-juego reiniciar"
+        style="font-family: 'Times New Roman', Times, serif; size: 10px;">reiniciar</button>
+    </div>
+  </div>
+  <div class="contenido" id="tablero"></div>
+  <div id="perdiste" class="perdiste"><span>Fin del Juego Perdiste</span></div>
+  <div id="ganaste" class="ganaste"><span>Felicidades <br> GANASTE!!!</span></div>
+  <!--Fin del Juego-->
+
+</body>
+
+</html>
+
+<!--LLamado al archivo javasrcipt de manera estatica-->
+<script src="/static/js/game.js"></script>
+
+<!--Llamado a Bootstrap JavaScript-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
